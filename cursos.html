@@ -2,6 +2,79 @@
 layout: default
 title: The Sheep Vote
 ---
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        body, html {
+            height: 100%;
+            background-color: #FEFEFE;
+        }
+        a {
+            text-decoration: none !important;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100%;
+        }
+        .wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .card {
+            box-shadow: 0 0 30px rgb(180, 180, 180);
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .image {
+            height: 50%;
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        .land-p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        .center {
+            text-align: center;
+        }
+        .orange {
+            background-color: #f1ac2de3;
+        }
+        .dark-blue {
+            background-color: #002642;
+        }
+	    
+	.med-blue{
+	    background-color: #56b1f5;
+	}
+        .btn {
+            display: inline-block;
+            padding: 15px 20px;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            font-size: 1em;
+            font-weight: 700;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+        .logo {
+            width: 130px;
+            height: 130px;
+        }
+    </style>
+<body>
 <header>
 	<div class="container">
 		<div class="column">
@@ -15,56 +88,33 @@ title: The Sheep Vote
 		</div>
 	</div>
 </header>
-
-<div class="container">
-	<ul class="thirds">
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-	</ul>
-	
-		<ul class="thirds">
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-	</ul>
-	
-		<ul class="thirds">
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-
-		<li>
-                        <br>
-<a href="https://bolitto.github.io"><img border="0" src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/bcb186-20170516-laura-palmer.jpg?itok=qrkQYN-r"></a>
-		</li>
-	</ul>
+    <div class="wrap">
+        <div class="card">
+            <img class="image" src="https://www.tygodnikprzeglad.pl/wp-content/uploads/2017/09/9-800x500_c.jpg">
+            <div class="content">
+                <p class="center land-p">Física</p>
+                <p class="center">
+                    <a href="http://iust-courses.github.io/ai972.html" class="orange btn">Spring 97-98</a>
+                </p>
+            </div>
+        </div>
+	<div class="card">
+            <img class="image" src="https://www.tygodnikprzeglad.pl/wp-content/uploads/2017/09/9-800x500_c.jpg">
+            <div class="content">
+                <p class="center land-p">Química</p>
+                <p class="center">
+                    <a href="http://iust-courses.github.io/ap97.html" class="orange btn">Spring 97-98</a>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image" src="https://www.tygodnikprzeglad.pl/wp-content/uploads/2017/09/9-800x500_c.jpg">
+            <div class="content">
+                <p class="center land-p">Biologia</p>
+                <p class="center">
+		    <a href="https://iust-deep-learning.github.io/981/" class="med-blue btn">Fall 98-99</a>
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
